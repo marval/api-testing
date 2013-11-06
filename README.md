@@ -17,3 +17,20 @@ $ sudo npm -g install simple-http-server
 $ bower install
 $ nserver -p {port}
 ```
+
+## Example
+Here is an example of how I tested the Greenkeeper-API:
+- Host: localhost:8181
+- Path: events
+- httpMethod: POST
+- Request data:
+```
+{
+    "title": "tasks.titles.watering.repair_sprinkler",
+    "start": 1383886800,
+    "end": 1383890400,
+    "all_day": false,
+    "task_id": 48,
+    "club_id": 1
+}
+```
