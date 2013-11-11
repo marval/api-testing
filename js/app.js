@@ -1,4 +1,4 @@
-var app = angular.module('APITesting', []);
+var app = angular.module('APITesting', ['ngRoute']);
 
 app.config(function($routeProvider, $compileProvider, $httpProvider) {
 
